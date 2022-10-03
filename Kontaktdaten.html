@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de-DE" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Meine Kontaktdaten</title>
+</head>
+
+<body>
+  <h1>Adresse</h1>
+  <p>Neckarauer Waldweg</p>
+  <p>best adress ever</p>
+  <h1>Telefon</h1>
+  <p>habe ich - du auch?</p>
+  <h1>Email</h1>
+  <p>Ist wichtig</p>
+  <ol>
+    <li>private EMail</li>
+    <li>geschäftliche EMail</li>
+    <li>geheime EMail</li>
+    <li>EMail der Freundin</li>
+  </ol>
+  <hr>
+  <!--Forms Eingabemöglichkeiten - 1. zum E-Mail verschicken-->
+  <form class="" action="mailto:andrelkeaz@web.de" method="post" enctype="text/plain">
+    <table cellspacing="3">
+      <tr>
+        <td><label for="">Name:</label></td>
+        <td><input type="text" name="YourName" value=""></td>
+      </tr>
+      <tr>
+        <td><label for="EMAIL">EMail Adresse:</label></td>
+        <td><input type="email" name="EMAIL" value=""></td>
+      </tr>
+      <tr>
+        <td><label for="">Deine Nachricht:</label></td>
+        <td><textarea name="Deine Nachricht" rows="8" cols="30"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"><input type="submit" name="" value="Senden"></td>
+        <!-- Buttom geht über die erste Zelle hinaus und verwendet 2 Zellenbreiten-->
+      </tr>
+    </table>
+  </form>
+  <hr>
+  <!--Weitere Form Möglichkeiten Datumseingabe Uploadmöglichkeit und 2 Radiobuttoms-->
+  <form class="" action="index.html" method="post">
+    <label for="">Datum:</label>
+    <input type="date" name="" value="">
+    <br>
+    <label for="">Upload file:</label>
+    <input type="file" name="" value="">
+    <br>
+    <hr>
+    <input type="radio" id="buttom1" name="MyButtoms" value="" checked>
+    <label for="buttom1">ich weiß</label>
+    <input type="radio" id="buttom2" name="MyButtoms" value="">
+    <label for="buttom2">ich wees es net</label>
+    <hr>
+  </form>
+</body>
+
+</html>
